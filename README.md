@@ -5,4 +5,8 @@ Remote Control Devices analysis and Detection with Image Processing and Computer
 
 - If the Sent Image is a Remote Control, Detection Without Asking the User How Many Buttons There Are.
 
--
+### Working Principle
+
+- I ran and tested the project in Python 3.7.6 in Conda. :snake:
+- In order to Run the Project, you must download the below file yolo.h5 and store it in the same directory as the script files https://github.com/OlafenwaMoses/ImageAI/releases/download/1.0/yolo.h5/
+Imageai From here Thank you very much.
