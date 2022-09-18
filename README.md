@@ -21,3 +21,12 @@ Imageai From here Thank you very much.
 - As the next step, in order to prepare for basic image processing techniques, the texts on the control must be deleted. Otherwise, it may accept "O, Ö, C," or similar letters as buttons while scanning the buttons.
 
 - The First Part of Image Processing is Using an Edge Detection Algorithm. The reason for this is that detecting buttons, etc. elements from the Raw Image will be more complex and erroneous, so we only need borders. There are multiple edge detection algorithms, but in my opinion, the most optimal algorithm in this project is sobel.
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/Darkksideyoda/Darkksideyoda.github.io/master/Urlimages/output1.png" width="200" height="200" />
+</p>
+
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/Darkksideyoda/Darkksideyoda.github.io/master/Urlimages/output2.png" width="200" height="200" />
+</p>
