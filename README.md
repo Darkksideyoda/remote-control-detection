@@ -24,9 +24,7 @@ Imageai From here Thank you very much.
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/Darkksideyoda/Darkksideyoda.github.io/master/Urlimages/output1.png" width="200" height="200" />
-</p>
-
-
-<p align="center">
+  
 <img src="https://raw.githubusercontent.com/Darkksideyoda/Darkksideyoda.github.io/master/Urlimages/output2.png" width="200" height="200" />
 </p>
+
