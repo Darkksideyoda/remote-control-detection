@@ -28,3 +28,11 @@ Imageai From here Thank you very much.
 <img src="https://raw.githubusercontent.com/Darkksideyoda/Darkksideyoda.github.io/master/Urlimages/output2.png" width="200" height="200" />
 </p>
 
+- The last step is to implement a circle finding algorithm on the image obtained with the sobel Operator. For this, we used the well-known "Hough Circle Transform". From the resulting image, we tried to estimate the total number of buttons to present to the User.
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/Darkksideyoda/Darkksideyoda.github.io/master/Urlimages/detectedOutput.jpg" width="200" height="200" />
+  
+<img src="https://raw.githubusercontent.com/Darkksideyoda/Darkksideyoda.github.io/master/Urlimages/detectedOutput%20(2).jpg" width="200" height="200" />
+</p>
+
