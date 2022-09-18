@@ -1,13 +1,8 @@
 from imageai.Detection import ObjectDetection
 import PIL.Image
-from tkinter import *
-from tkinter import messagebox
 
-top = Tk()
-top.geometry("100x100")
 
-def showMessage(isRemote):
-   messagebox.showinfo("Remote Info",isRemote)
+imgSrc = "data/myImageData/img5.jpg"
 
 obj_detect  = ObjectDetection()
 obj_detect.setModelTypeAsYOLOv3()
@@ -21,21 +16,25 @@ obj_detect.CustomObjects(remote=True)
 
 
 detected_obj = obj_detect.detectObjectsFromImage(
-    input_image="data/myImageData/img9.jpg",
+    input_image=imgSrc,
     output_image_path="test_image_output.jpg",
-    minimum_percentage_probability=20
+    minimum_percentage_probability=20,
+    
 )
 
 
 for obj in detected_obj:
     if obj["name"] == "remote":
-        showMessage("Kumanda Tespit Edildi !")
         print("Remote Control Detected !\n")
         print(obj["percentage_probability"])
         print(obj["box_points"])
+        outputImgOpen =  PIL.Image.open(imgSrc)
+        croppedImg = outputImgOpen.crop((obj["box_points"]))
+        croppedImg.save("test_image_output.jpg")        
+        
 
     else:
-        print("Ne Yazık ki Kumanda Bulunamadi !")
+        print("We Can't Find Remote Try Again !")
 
 im = PIL.Image.open("test_image_output.jpg")
 im.show()
