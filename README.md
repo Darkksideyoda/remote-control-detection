@@ -11,4 +11,5 @@ Remote Control Devices analysis and Detection with Image Processing and Computer
 - In order to Run the Project, you must download the below file yolo.h5 and store it in the same directory as the script files https://github.com/OlafenwaMoses/ImageAI/releases/download/1.0/yolo.h5/
 Imageai From here Thank you very much.
 - An example of a remote that I photographed and its output are as follows.
+![]
 (https://github.com/Darkksideyoda/Darkksideyoda.github.io/blob/master/Urlimages/orgin1.PNG)
